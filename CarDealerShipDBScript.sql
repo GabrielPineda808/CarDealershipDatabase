@@ -22,3 +22,39 @@ CREATE TABLE `dealerships` (
     `phone` VARCHAR(12),
     PRIMARY (`dealership_id`)
 );
+
+# ---------------------------------------------------------------------- #
+# Add table "vehicles"                                                #
+# ---------------------------------------------------------------------- #
+
+CREATE TABLE `vehicles` (
+    `vin` INTEGER NOT NULL,
+    `make` VARCHAR(15),
+    `model` VARCHAR(15),
+    `color` VARCHAR(10),
+    `miles` INTEGER,
+    `sold` BOOLEAN,
+    PRIMARY (`vin`)
+);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
